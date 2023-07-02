@@ -73,19 +73,36 @@ p{
     color: rgb(59, 204, 59);
 }
 
+.socialBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .socialBox ul{
+    display: flex;
+    width: 100%;
     justify-content: space-evenly;
+    margin-bottom: 2rem;
 }
 
 .socialBox li{
+    display: flex;
     border: 1px solid;
-    border-radius: 55px;
+    border-radius: 50%;
     padding: 10px;
     opacity: 0.8;
 }
 
 .socialBox li:hover{
     opacity: 1;
+}
+
+.skillsBox{
+    margin-top: 10px;
 }
 
 .skillsBox ul{
