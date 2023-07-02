@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(124,112,112);
+    background: linear-gradient(347deg, rgba(124,112,112,1) 0%, rgba(52,50,50,1) 22%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background: rgb(124,112,112);
+    background: linear-gradient(164deg, rgba(124,112,112,1) 0%, rgba(88,81,81,1) 21%);
+    box-shadow:
+  15.4px 17.8px 12.8px rgba(0, 0, 0, 0.127),
+  123px 142px 102px rgba(0, 0, 0, 0.16)
+}
+
+main div{
+    margin-top: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+p{
+    font-size: .9rem;
+    border-bottom: 1px outset;
+}
+
+.headerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerBox img{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.headerBox span{
+    display: flex;
+}
+
+.headerBox span h1:last-child{
+    color: rgb(59, 204, 59);
+}
+
+.socialBox ul{
+    justify-content: space-evenly;
+}
+
+.socialBox li{
+    border: 1px solid;
+    border-radius: 55px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+.socialBox li:hover{
+    opacity: 1;
+}
+
+.skillsBox ul{
+    justify-content: center;
+    gap: 10px;
+}
+
+/*Color Skills and Social*/
+
+#instagram{
+    color: #be6f52;
+    border-color: #be6f52;
+}
+
+#linkedin{
+    color: #729dfc;
+    border-color: #729dfc;
+}
+
+#github{
+    color: #fbfcff;
+    border-color: #fbfcff;
+}
+
+#gmail{
+    color: #db7e7e;
+    border-color: #db7e7e;
+}
