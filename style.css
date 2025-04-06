@@ -14,7 +14,23 @@ body {
     top: 0;
     z-index: 1000;
   }
- 
+
+
+h2{
+  border-top: 1px solid #fff;
+}
+  
+
+.name{
+  display: flex;
+  font-size: 2rem;
+}
+
+.name h1:last-child{
+  color: rgb(59, 204, 59);
+}
+
+
   nav ul {
     list-style: none;
     display: flex;
@@ -51,7 +67,8 @@ body {
   .skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 30px;
     margin-top: 20px;
   }
   
@@ -132,4 +149,15 @@ body {
     justify-content: center;
     gap: 1.5rem;
   }
+
+  .redes-sociais a{
+    color: #fff;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 10px 15px;
+    opacity: 0.8;
+  }
   
+  .redes-sociais a:hover{
+    opacity: 1;
+}
