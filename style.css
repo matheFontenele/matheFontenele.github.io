@@ -29,13 +29,46 @@ h2{
   color: rgb(59, 204, 59);
 }
 
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding: 0;
+.curriculo {
+  display: inline-flex;
+  align-items: center;
+  background-color: #00aa44;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  transition: width 0.4s ease, padding 0.4s ease;
+  width: 45px; /* Tamanho inicial, só o ícone */
+}
+
+.curriculo span {
+  margin-left: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.curriculo:hover {
+  width: 100px; /* Expande o botão */
+}
+
+.curriculo:hover span {
+  opacity: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
   }
   
   nav a {
@@ -68,7 +101,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 20px;
+    gap: 15px;
     margin-top: 20px;
   }
   
